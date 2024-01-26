@@ -1,0 +1,30 @@
+{
+  "event": [
+    {
+      "name": "Debugging",
+      "date": "12th Nov 2023 , 10:00 AM",
+      "price": "100",
+      "venue": "CTS Lab",
+      "active": true,
+      "description": "Debugging is the process of finding and fixing errors or bugs in the source code of any software. When software does not work as expected, computer programmers study the code to determine why any errors occurred.",
+      "id": 1
+    },
+    {
+      "id": 3,
+      "name": "Algocode",
+      "date": "18th Dec 2023,10:00 AM",
+      "price": "100",
+      "venue": "Prahalad Hall",
+      "description": "The CodeMaster Challenge is aimed at testing participants' problem-solving abilities, algorithmic thinking, and coding skills. Contestants will tackle a series of algorithmic problems within a specified timeframe."
+    },
+    {
+      "name": "Tech Talk",
+      "date": "24th Jan 2023, 12:00PM",
+      "price": "150",
+      "venue": "CC1",
+      "active": true,
+      "description": "It is a place where you can share your tech based knowledge!!",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+/* About.css */
+
+/* Container styles */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8; /* Background color */
+  }
+  
+  /* Content styles */
+  .about-content {
+    max-width: 850px;
+    padding: 8px;
+    background-color: #fff; /* Content background color */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .about-content h1 {
+    margin-bottom: 20px;
+    color: #333; /* Header color */
+  }
+  
+  .description {
+    color: #666; /* Description text color */
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .thank-you {
+    color: #888; /* Thank you text color */
+    font-style: italic;
+    margin-top: 30px;
+  }
+  
+  /* Adjust styles as needed to match the desired Amazon-like theme */
+  

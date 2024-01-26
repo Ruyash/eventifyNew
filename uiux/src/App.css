@@ -1,0 +1,54 @@
+/* App styles */
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Update the font family */
+}
+
+.App-logo {
+  height: 20vmin; /* Adjust the logo size */
+  width: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Create space below the logo */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header styles */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin); /* Increase base font size */
+  color: #fff; /* Change default text color */
+}
+
+/* Link styles */
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none; /* Remove underline for links */
+  transition: color 0.3s ease; /* Smooth transition for link color change */
+}
+
+.App-link:hover {
+  color: #45aaf2; /* Change link color on hover */
+}
+
+/* Keyframe animation */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
